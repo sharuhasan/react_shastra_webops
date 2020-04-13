@@ -1,0 +1,33 @@
+body{
+  background-color: #9deb9d;
+  text-align : center;
+  margin-top: 200px;
+  color:pink;
+}
+
+form button{
+  color:rgb(211, 12, 12);
+  background:black;
+  padding:2px;
+  box-shadow: 1px 1px 1px #34495e;
+  margin-top: 10px;
+}
+
+form input{
+  padding: 4px 2px;
+
+}
+
+form select{
+  padding: 4px 2px;
+}
+
+section{
+  background-color: purple;
+  width: 300px;
+  box-shadow: 3px 3px 1px #34495e;
+  height: 300px;
+  padding: 40px;
+  margin-left: 37%;
+  margin-top: 100px;
+}
