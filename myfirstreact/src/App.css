@@ -1,33 +1,48 @@
 body{
-  background-color: #9deb9d;
-  text-align : center;
-  margin-top: 200px;
-  color:pink;
+  background-image: url(22507322-1576778921713.png);
+  background-position: right;
+  margin:0px;
+  border:0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
 }
 
 form button{
-  color:rgb(211, 12, 12);
-  background:black;
+  color:white;
+  background:rgb(6, 122, 138);
   padding:2px;
   box-shadow: 1px 1px 1px #34495e;
-  margin-top: 10px;
+  margin-top: 50px;
+  width:200px;
+  height:30px;
 }
 
 form input{
-  padding: 4px 2px;
-
+  padding: 10px 2px;
+  width:300px
 }
 
 form select{
-  padding: 4px 2px;
+  padding: 12px 2px;
+  background-color:whitesmoke;
+  width:308px;
 }
 
 section{
-  background-color: purple;
   width: 300px;
-  box-shadow: 3px 3px 1px #34495e;
-  height: 300px;
+  height: 0px;
   padding: 40px;
-  margin-left: 37%;
-  margin-top: 100px;
+  margin-left: 70%;
+  margin-top: 0px;
+  text-align: center;
+  opacity: 0.8;
 }
+
+::placeholder{
+  color:black;
+  opacity:1;
+
+}
+ 
