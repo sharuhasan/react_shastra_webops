@@ -19,9 +19,9 @@ export default class VForm extends React.Component{
     state= initialstate;
     
     handlechange=(e)=>{
-        
+      
         this.setState({
-            [e.target.name]  : (e.target.value)
+            [e.target.name]:  (e.target.value)
         });
     }
     validate=()=>{
@@ -38,12 +38,11 @@ export default class VForm extends React.Component{
             nameerr="NAME CANNOT BE LEFT BLANK";
                
         }
-        if(!this.state.email.includes("@") )
+        
+        if(!this.state.email.includes("@") || !this.state.email.includes(".")  )
         {
-            if(!this.state.email)
-            {emailerr="EMAIL CANNOT BE LEFT BLANK";}
-            else
-            {emailerr="INVALID EMAIL"}
+           
+            emailerr="INVALID EMAIL"
             
         }
 
@@ -67,7 +66,7 @@ export default class VForm extends React.Component{
          {
              numbererr="MOBILE NUMBER SHOULD HAVE EXACTLY 10 DIGITS"
          }
-        if(emailerr||nameerr||passworderr||confirmpassworderr)
+        if(emailerr||nameerr||passworderr||confirmpassworderr||numbererr)
         {
             this.setState({nameerr,emailerr,passworderr,confirmpassworderr,numbererr});  
             return false;  
