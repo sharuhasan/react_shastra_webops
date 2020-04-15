@@ -19,9 +19,9 @@ export default class VForm extends React.Component{
     state= initialstate;
     
     handlechange=(e)=>{
-        const ischeckbox=e.target.type==="checkbox";
+        
         this.setState({
-            [e.target.name]: ischeckbox ? (e.target.checked)  : (e.target.value)
+            [e.target.name]  : (e.target.value)
         });
     }
     validate=()=>{
