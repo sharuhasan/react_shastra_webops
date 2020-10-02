@@ -1,9 +1,8 @@
 # shashtra webops
 
-BLAH BLAH BLAH
+This repo contains the ...
 
 
 ## CONTRIBUTORS
-
-YARUM ILLABHA
+*Sharuhasan
 
